@@ -3,6 +3,6 @@
 import math
 
 
-def str_func(n: float) -> str:
+def to_str(n: float) -> str:
     """def floor function"""
     return str(n)
