@@ -3,8 +3,8 @@
 from typing import Union, Tuple
 
 
-def to_kv(a: str, b: Union[int, float]) -> Tuple[str, float]:
+def to_kv(v: str, k: Union[int, float]) -> Tuple[str, float]:
     """ function """
-    square = (b * b)
-    result: Tuple[str, float] = (a, square)
+    square = (v * v)
+    result: Tuple[str, float] = (k, square)
     return result
